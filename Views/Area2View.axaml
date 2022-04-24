@@ -1,0 +1,10 @@
+<DataTemplate xmlns="https://github.com/avaloniaui"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:viewModels="clr-namespace:AvaloniaDemo.ViewModels"
+              DataType="viewModels:Area2ViewModel">
+    <Design.DataContext>
+        <viewModels:Area2ViewModel />
+    </Design.DataContext>
+    
+    <TextBlock Text="{Binding Name}" />
+</DataTemplate>
